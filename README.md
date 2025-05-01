@@ -50,6 +50,18 @@ You’ll need your own OpenAI API key to use the app.
 - `requirements.txt` + setup documentation
 
 - ---
+## ⚠️ Note on MP4 Transcription Accuracy
+
+When using `.mp4` video files, subtitle generation relies entirely on audio quality.
+
+If the audio is unclear, includes background noise, or lacks spoken content, Whisper may generate inaccurate or empty subtitles.
+
+✅ For best results:
+- Use high-quality recordings with clear speech
+- Or upload an existing `.srt` subtitle file directly for faster and more accurate translation
+
+If in doubt, try generating the subtitles manually first and inspect them before translating.
+
 
 ## 💡 Requirements
 
