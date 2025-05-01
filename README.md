@@ -1,61 +1,55 @@
-# 🎬 AI Subtitle Translator – GPT + Whisper Tool
+# 🎬 Free AI Subtitle Translator (No Signup / No Coding Needed)
 
-Easily translate `.srt` or `.mp4` subtitle files into 100+ languages using OpenAI's GPT and Whisper.  
-Perfect for YouTubers, educators, and content creators who want to reach a global audience.
+Translate subtitles or entire YouTube videos into 100+ languages  
+with an easy-to-use GPT + Whisper powered tool.
 
-## 🔧 Features
-- Translate `.srt` or `.mp4` subtitle files
-- Supports 100+ languages (YouTube-compatible)
-- Simple and intuitive GUI built with Streamlit
-- Cross-platform (macOS & Windows)
-- No coding skills required
-- Fully open-source and customizable
+Perfect for YouTubers, educators, and creators who want to go global 🌍
 
-## 📦 Included Files
-- `app.py` — GUI launcher (Streamlit)  
-- `main.py` — Subtitle translation logic  
-- `requirements.txt` — Dependency list  
-- `.env.template` — Sample for setting up OpenAI API key  
-- `sample_files/test_subtitles.srt` — Sample subtitle file  
+---
 
-## 🚀 Getting Started
-Follow these steps to run the tool locally on your machine.
+## ✅ Features
 
-### 1. Clone this repository
-git clone https://github.com/yoshi08010801/ai-subtitle-translator.git  
-cd ai-subtitle-translator
+- Translate `.srt` or `.mp4` files  
+- Supports 100+ languages (incl. YouTube subs)  
+- No signup required  
+- No coding needed  
+- Clean GUI (Streamlit)  
+- Works on Mac & Windows
 
-### 2. Install dependencies
-Make sure Python 3.9+ is installed, then run:
-pip install -r requirements.txt
-
-If you get an error with `whisper`, run:
-pip install git+https://github.com/openai/whisper.git
-
-### 3. Set up your OpenAI API key
-Copy `.env.template` and rename it to `.env`, then open it and insert:
-OPENAI_API_KEY=your_openai_key_here
-
-Get your key here: https://platform.openai.com/account/api-keys
-
-### 4. Run the app
-streamlit run app.py
-
-Your browser will open the GUI automatically.
-
-## 🔗 Try without setup (no install required)
-Don’t want to install anything?
-
-Download the ready-to-use version here (free, no signup):  
-https://yoshiverse1.gumroad.com
+---
 
 ## 🧠 Powered by
-- OpenAI GPT
-- OpenAI Whisper
-- Streamlit
 
-## 📄 License
-MIT License – Free to use, modify, and distribute.
+- OpenAI GPT  
+- OpenAI Whisper  
 
-Enjoy translating your content into the world! 🌍  
-If you find this helpful, give it a ⭐ on GitHub or share it with others!
+---
+
+## 📦 Includes
+
+- Source code (Python)  
+- GUI App (`app.py`)  
+- README (English)
+
+---
+
+## 💡 Note
+
+You’ll need your own OpenAI API key to use the app.
+
+---
+
+## 💡 Coming Soon (Planned Improvements)
+
+- Auto-check for Whisper CLI and setup guidance  
+- GPT model selection (3.5 / 4)  
+- Secure API key handling via `st.secrets`  
+- `.srt` format and file input validation  
+- Retry logic and partial failure tolerance  
+- Progress bar for real-time translation status  
+- `requirements.txt` + setup documentation  
+
+---
+
+🔗 **Make your content global — get started today!**  
+👉 https://yoshiverse1.gumroad.com
