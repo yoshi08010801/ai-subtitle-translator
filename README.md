@@ -47,7 +47,18 @@ You’ll need your own OpenAI API key to use the app.
 - `.srt` format and file input validation  
 - Retry logic and partial failure tolerance  
 - Progress bar for real-time translation status  
-- `requirements.txt` + setup documentation  
+- `requirements.txt` + setup documentation
+
+- ---
+
+## 💡 Requirements
+
+- Python 3.9+
+- OpenAI API Key
+- ffmpeg (required by Whisper)  
+  ↳ macOS: `brew install ffmpeg`  
+  ↳ Windows: [Download from ffmpeg.org](https://ffmpeg.org/download.html)
+
 
 ---
 
