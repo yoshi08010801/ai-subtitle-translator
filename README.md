@@ -1,5 +1,14 @@
 # 🎬 Free AI Subtitle Translator (No Signup / No Coding Needed)
 
+
+## 📺 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/QnGNM0PnUfs/hqdefault.jpg)](https://youtu.be/QnGNM0PnUfs)
+
+A quick demo of how this AI Subtitle Translator works.  
+（字幕翻訳ツールの使い方を動画で紹介しています）
+
+
 Translate subtitles or entire YouTube videos into 100+ languages  
 with an easy-to-use GPT + Whisper powered tool.
 
