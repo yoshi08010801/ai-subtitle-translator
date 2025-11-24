@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hello, and welcome to our video.
+
+2
+00:00:02,500 --> 00:00:04,000
+This is a sample subtitle file.
+
+3
+00:00:04,500 --> 00:00:06,000
+You can translate this into 100+ languages!
