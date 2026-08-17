@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# virtual environments
+.venv/
+venv/
+
+# environment variables
+.env
+.env.*
+!.env.template
+
+# macOS
+.DS_Store
+
+# logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
